@@ -1,5 +1,6 @@
 require 'sinatra'
-configure(:development) { set :session_secret, "something" }
+
+configure(:development) { set :session_secret, "keeps cute cat alive" }
 
 get '/' do
   "Hello!!"
